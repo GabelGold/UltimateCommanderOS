@@ -1,7 +1,7 @@
 ULTIMATE COMMANDER OS — PROJEKTSTATUS
 =====================================
 Entwickler : Christian Schmitt, Solingen
-Datum      : 2026-08-13 22:34:35
+Datum      : 2026-08-13 22:36:31
 Version    : 1.0.0
 Quelle     : I:\Ultimate Commander OS
 Ziel       : G:\Ultimate Commander OS
@@ -11,7 +11,7 @@ GitHub     : https://github.com/GabelGold/UltimateCommanderOS
 
 STATUS: PRODUKTIONSBEREIT (lokaler Baum geschrieben, Tests + Build siehe build_log.txt)
 
-Dateien: 42
+Dateien: 47
 SHA-256:
 a7f942c42702c36113e6869ea1349f42af5e634edf086fa4a104586075678d5e  .env	271 bytes
 4826b8c9b8ed842cc8bc7526adce2db33c257d43b8e4b7f9e560f8705d0f58fb  .env.example	201 bytes
@@ -20,15 +20,21 @@ c29fe3418dc469937c9901d702f2531b8bd679b139d336855830e0d7903e72e1  .github/workfl
 3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd  .pytest_cache/.gitignore	37 bytes
 37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4  .pytest_cache/CACHEDIR.TAG	191 bytes
 73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad  .pytest_cache/README.md	302 bytes
-ef5f7560abea3444c9c0cd0e2e3f328f6412ad728e7da96f5e8370d462c10909  GODMODE_DEPLOY.ps1	8268 bytes
+ce35918ebc69e9de9f0b5480218d1b0eeb32576637eebfbd35295c5554a5043d  build_log.txt	4746 bytes
+d7082fd9e0f429955af214f0ba527fb9d9629d4788749bc09ae8fbcfba16409a  CHANGELOG.txt	365 bytes
+754e08438a244f44a25b9cf754858d168bf6b51e632d4c2b03521f64a632b93d  FEHLERANALYSE.txt	626 bytes
+81bc3c6b3482f81755ecf83e8f30709e2256a720121a892708e4fa7ceb9c2c80  GODMODE_DEPLOY.ps1	8464 bytes
 dc3b3f73faaa715345bee8011daa19901b1191d65775d673bcd95829d735a546  installer/UltimateCommander.spec	1290 bytes
 dffe523773b9fd50bd23690490bf465a6a8897b7d0f4ceaedcef4ab53e84d804  installer/UltimateInstaller.iss	1715 bytes
 fb8e637eae30bdefe242d9873db519d5617917196a562086dc0dde18084e40b7  LICENSE	218 bytes
-a77c5e98315122d316d94f453194e27027c541409bf7337349be6138456610ba  live_check.py	6138 bytes
+10c8f4829d2042f5166ae5398d99b45d8733840f15edddf51932d5b47d51fdf7  live_check.py	6347 bytes
+38da63aecc14de61fa01d4d2d406ae882e8e0b22737fb682b48bd2a322661851  MASTER_CONTROL.txt	634 bytes
+d8725fe3accfb7e580c17fdd4878c1e26f2377ebb83f2e585e5e304621b50468  PROJEKT_DOKUMENTATION.txt	5434 bytes
+eae93dadf911767a5879328a6b3c2ab03747e8e4e894cff5a679b1bd00bae5b1  PROJEKTSTATUS.txt	5133 bytes
 f6a0024b25d83b9ca47c4e752027d5528912e607a97a2211d129cd44eb6e3483  pytest.ini	114 bytes
 2a7a06d10f91f9ab4bdfca7960bd1dfda28fc1218418a541a33463b0975f4132  README.md	2176 bytes
 e481ace0a7fe25baa164cb4ae29829436d1d0d5370e2cdfa97cdca15a66d8dd8  requirements-dev.txt	83 bytes
-21190d1dd76e1372c463bee4f04bee13b9ceca79231d51280394f7061a06314e  requirements.txt	225 bytes
+e9b1f8efddfe43bd6edef66253ae3409b655cb4f88c6abbd611e653bb2d8478c  requirements.txt	203 bytes
 a8b2706555cdfdc68a91aac3afd99a282d877ae9d352f9c178c3574fe2208c36  src/__init__.py	103 bytes
 88af99eeda2e3dcb2dd0a7201222159f9144d2340a2b38aaca7ab64227ae14b0  src/backend/__init__.py	412 bytes
 350af3686a0ee3246c7f1a5087f67bcb08f0fc583c3b911f6ad95bc9fce8a5c6  src/backend/commander_api.py	6708 bytes
@@ -43,13 +49,12 @@ a6832e277e7305ff009b9a3bca9b450d358df61c1abfc1e73d71538c1147f9cf  src/ui/qmldir	
 8329dabc788023e34e42c20cbac39e24e41059cb83805eb9251ba71391dce874  src/ui/StatusBar.qml	1621 bytes
 eab10e3fe6df038eed1a1d4eb73df07b14fdabef66f4a50a0cc665ee1fb7688c  src/ui/Theme.qml	732 bytes
 a7928b3eeec81fd22a0efd92f304482099d7d6f06cfed9f633894ae2b043b57c  start.bat	349 bytes
-cdd83d83f58d785a5fd0922a75974897b0a84f58f74a56dfc9052651f3bd3ad9  test_report.txt	4372 bytes
-e3f37a6973645df703673e0b8fbff3b723f962f5ae7f19dc390f678ed0758a6e  tests/__init__.py	22 bytes
+89d47d5565bc84e256dfbab37fa1b03965f13ed2a44acc3aae22bd60948bc432  test_report.txt	4218 bytes
 9ac3727867067ea2b67dc3a3594ff6a2239a2632732eb8d49d6bf902c31731f3  tests/test_monitor.py	327 bytes
-05522ebd647ace6f03c3bc1c81d637b3cb4307f142d4d9fddcd8eee268abe979  tests/test_network.py	670 bytes
+87dd315da7a74b77bc127d57e3a435ccb070a3022adcab4d13224f4e88903936  tests/test_network.py	829 bytes
 7b3a896b4ca8ae84bf2dec51e5d0d270b433e939a02f9f578a9e6170ca293c9f  tests/test_ollama.py	535 bytes
-43e05eb1c0f0260d750c40830c9d36477747458bded405923412c7db75c118b6  tests/test_security.py	366 bytes
-c546a248d606e8f9c0391a0786d043489a0aa7b69edcb3b83d845a01f289ca27  tests/test_smoke.py	934 bytes
+20321589ae3c308b3bebf3b823783b5f84a00b6f4c6c0786f6eed4e8f20b3a18  tests/test_security.py	542 bytes
+14bc42414b132719a7e12d10613f7e48064c20b2287dbfe30e1abaac2b55416f  tests/test_smoke.py	938 bytes
 b58500466e998ee443d9b60b843a6800974ee03490f0b8b5c5ebee369154b156  tools/create_iso.ps1	1159 bytes
 1e653ddecfbb7bbbe861dd95f8659572d5229fa70264cb9760d4e532d7d29c6b  tools/parse_check.ps1	288 bytes
 c0e98604de4fb7ba469c8179eda9a8571ef15f802b73e7d76f65273b1b025197  tools/write_docs.py	5506 bytes
