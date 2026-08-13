@@ -1,0 +1,9 @@
+# Ultimate Commander OS - runtime
+# Network adapters via ifaddr (pure Python, no C compiler)
+ifaddr>=0.2.0
+psutil>=5.9.8
+PySide6>=6.6.0
+requests>=2.31.0
+python-dotenv>=1.0.1
+qrcode>=7.4.2
+Pillow>=10.2.0

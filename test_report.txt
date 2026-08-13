@@ -1,0 +1,162 @@
+{
+  "when": "2026-08-13T20:35:32.595200+00:00",
+  "root": "G:\\Ultimate Commander OS",
+  "files": [
+    {
+      "ok": true,
+      "path": "ultimate_commander.py"
+    },
+    {
+      "ok": true,
+      "path": "live_check.py"
+    },
+    {
+      "ok": true,
+      "path": "requirements.txt"
+    },
+    {
+      "ok": true,
+      "path": "src\\__init__.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\__init__.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\Dashboard.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\network.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\system_monitor.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\ollama_client.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\security.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\backend\\commander_api.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\ui\\__init__.py"
+    },
+    {
+      "ok": true,
+      "path": "src\\ui\\Dashboard.qml"
+    },
+    {
+      "ok": true,
+      "path": "src\\ui\\StatusBar.qml"
+    },
+    {
+      "ok": true,
+      "path": "src\\ui\\Theme.qml"
+    }
+  ],
+  "syntax": [
+    {
+      "ok": true,
+      "file": "ultimate_commander.py"
+    },
+    {
+      "ok": true,
+      "file": "live_check.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\__init__.py"
+    },
+    {
+      "ok": true,
+      "file": "tests\\test_smoke.py"
+    },
+    {
+      "ok": true,
+      "file": "tests\\test_network.py"
+    },
+    {
+      "ok": true,
+      "file": "tests\\test_security.py"
+    },
+    {
+      "ok": true,
+      "file": "tests\\test_ollama.py"
+    },
+    {
+      "ok": true,
+      "file": "tests\\test_monitor.py"
+    },
+    {
+      "ok": true,
+      "file": "tools\\write_docs.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\__init__.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\network.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\security.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\ollama_client.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\system_monitor.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\commander_api.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\backend\\Dashboard.py"
+    },
+    {
+      "ok": true,
+      "file": "src\\ui\\__init__.py"
+    }
+  ],
+  "requirements": {
+    "ok": true,
+    "netifaces_present": false,
+    "ifaddr_present": true
+  },
+  "files_ok": true,
+  "syntax_ok": true,
+  "reqs_ok": true,
+  "hashes": {
+    "ultimate_commander.py": "de9d5da638fcff316535ba2429f2977cd643fa3faeb6dfd48760a00298801d32",
+    "live_check.py": "10c8f4829d2042f5166ae5398d99b45d8733840f15edddf51932d5b47d51fdf7",
+    "requirements.txt": "e9b1f8efddfe43bd6edef66253ae3409b655cb4f88c6abbd611e653bb2d8478c",
+    "src\\__init__.py": "a8b2706555cdfdc68a91aac3afd99a282d877ae9d352f9c178c3574fe2208c36",
+    "src\\backend\\__init__.py": "88af99eeda2e3dcb2dd0a7201222159f9144d2340a2b38aaca7ab64227ae14b0",
+    "src\\backend\\Dashboard.py": "0d04a6a28461a8b8074885ab3300d7ea944712e2b13495d3cfb126b4403b6c13",
+    "src\\backend\\network.py": "8cddcb334e41cc76e4ecf227e851a1c3b308f9cb326db11d7dbef6193f8a4049",
+    "src\\backend\\system_monitor.py": "9ce51cd7d15f329835904aeb536f4337b148e5f24ddca3191953de9d0b26b0e0",
+    "src\\backend\\ollama_client.py": "632ab2f04fd59685acdc35447344f90611e1d3a40789b841e3dbdc7e97a13e88",
+    "src\\backend\\security.py": "a0350d86cbc8943e923fce7f9b603e3d95147b4240987b3693a00f1f714d7fd7",
+    "src\\backend\\commander_api.py": "350af3686a0ee3246c7f1a5087f67bcb08f0fc583c3b911f6ad95bc9fce8a5c6",
+    "src\\ui\\__init__.py": "9ad74b111745ecd429c223dee758e5f11201ca1225a61d3589e22e75541b0052",
+    "src\\ui\\Dashboard.qml": "4d5dec0ff98b8dd21ef30c1591ffcbfd19d64cc27ab97a5fdd731d65e2c17948",
+    "src\\ui\\StatusBar.qml": "8329dabc788023e34e42c20cbac39e24e41059cb83805eb9251ba71391dce874",
+    "src\\ui\\Theme.qml": "eab10e3fe6df038eed1a1d4eb73df07b14fdabef66f4a50a0cc665ee1fb7688c"
+  },
+  "ok": true
+}

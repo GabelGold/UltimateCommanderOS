@@ -1,0 +1,20 @@
+MASTER_CONTROL — lebende Checkliste
+===================================
+[x] Quelle analysiert (I:\Ultimate Commander OS fehlte)
+[x] Zielbaum auf G:\ erzeugt
+[x] netifaces -> ifaddr
+[x] __init__.py korrekt
+[x] Ollama-Mock-Fallback
+[x] Dashboard.qml Fluent Dark + StatusBar
+[x] Dashboard.py Signale
+[x] live_check.py Tasten 1-5
+[x] PyInstaller Spec (windowed)
+[x] Inno Setup UltimateInstaller.iss
+[x] GitHub Repo GabelGold/UltimateCommanderOS
+[x] GitHub Actions CI
+[x] .gitignore
+[x] 7 Kern-Dokumente
+[x] update.bat
+[x] tools\create_iso.ps1 (oscdimg-Platzhalter)
+[x] ENCRYPTION_KEY via .env
+[x] GODMODE_DEPLOY.ps1

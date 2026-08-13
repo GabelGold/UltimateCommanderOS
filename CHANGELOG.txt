@@ -1,0 +1,11 @@
+ULTIMATE COMMANDER OS — CHANGELOG
+=================================
+[1.0.0] — 2026-08-13
+- Erstes produktionsreifes Release
+- PySide6 Fluent Dark Dashboard
+- ifaddr statt netifaces
+- Portable venv-Bootstrap
+- PyInstaller windowed EXE + Inno Setup Skript
+- GitHub Actions: test / build / release
+- live_check Tasten 1-5
+- ENCRYPTION_KEY Auto-Generate

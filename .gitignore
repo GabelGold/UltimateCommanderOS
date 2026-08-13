@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Build / installer
+dist/
+build/
+*.spec.bak
+installer/Output/
+*.msi
+
+# Logs, cache, media
+*.log
+*.iso
+cache/
+logs/
+*.qmlc
+*.jsc
+
+# Secrets / local
+.env
+ENCRYPTION_KEY
+*.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

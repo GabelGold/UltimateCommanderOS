@@ -1,0 +1,16 @@
+ULTIMATE COMMANDER OS — FEHLERANALYSE
+=====================================
+Stand: 2026-08-13 22:34:35
+
+BEHOBEN
+- Quelle I:\Ultimate Commander OS fehlte -> Baum neu erzeugt
+- netifaces (C-Compiler) durch ifaddr ersetzt
+- __init__.py in src/, src/backend/, src/ui/ vorhanden
+- Ollama-Ausfall faellt auf Mock zurueck
+- live_check.py steuert Server / Cache / QML-Reload / GitHub / Shares
+- Dashboard.py sendet CPU/RAM/Netz/Ollama-Signale an Dashboard.qml
+
+OFFEN / UMGEBUNG
+- Inno Setup Compiler (ISCC) nur wenn installiert
+- oscdimg / Windows ADK nur wenn installiert
+- Git-Push nur mit vorhandenen Credentials
